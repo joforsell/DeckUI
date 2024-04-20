@@ -8,7 +8,7 @@
 import SwiftUI
 
 open class PresentationState: ObservableObject {
-    static let shared = PresentationState()
+    public static let shared = PresentationState()
     @Published var slideIndex = 0
     
     var loop = false
